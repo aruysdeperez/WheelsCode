@@ -1,0 +1,3 @@
+codeList=[{'wheel': 0, 'solved': 1, 'C': [[1, 2, 3], [1, 2, 4], [1, 5, 6], [1, 2], [1]], 'sc': [[1, 2, 3], [1, 2, 4], [1, 5, 6]], 'indecomposable': 0, 'id': 'Pure2D_3Fac1', 'reduced': 0, 'quasisolved': 1},
+{'wheel': 0, 'solved': 0, 'C': [[1, 2, 3], [1, 4, 5], [2, 3, 6], [2, 3], [1]], 'sc': [[1, 2, 3], [1, 4, 5], [2, 3, 6]], 'indecomposable': 0, 'id': 'Pure2D_3Fac2', 'reduced': 0, 'quasisolved': 1},
+{'wheel': 0, 'solved': 1, 'C': [[1, 2, 3], [1, 4, 5], [2, 4, 6], [2], [4], [], [1]], 'sc': [[1, 2, 3], [1, 4, 5], [2, 4, 6]], 'indecomposable': 1, 'id': 'Pure2D_3Fac3', 'reduced': 0, 'quasisolved': 1}]
