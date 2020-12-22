@@ -1,0 +1,33 @@
+In this folder are the lists of dictionaries that were processed by our workflow.
+
+For two files whose filenames start the same, e.g. 'FiveFac_PREP_1.sage' and 'FiveFac_WIRE_WHEEL_6.sage':
+The file ending in '...PREP_1.sage' contains a list of dictionaries that have yet to go through the workflow.
+The file ending in '...WIRE_WHEEL_6.sage' contains the same list of dictionaries, having finished with the workflow.
+
+When created, each dictionary has three entries describing the simplicial complex and its minimal code:
+
+	'sc': a simplicial complex; NOTE that only the facets are listed
+	'C': the neural code that is the minimal code of the particular simplicial complex in the dictionary
+	'id': a unique name to identify that particular code and simplicial complex pair; NOTE that
+	a code that belongs to both the pure codes and the codes with 3-7 maximal codewords has two different
+	ids, based on which list it belongs to
+
+There are also two Boolean entries, denoting the following properties:
+
+	'solved': every intersection of facets of the simplicial complex is contained in the code
+	'quasisolved': every intersection of facets, with the possible exception of the empty set [], is contained in the code
+
+After going through the workflow, the following three Boolean entries are added to the dictionary: 
+
+	'wheel': the code contains a wheel
+	'indecomposable': the code is indecomposable
+	'reduced': the code is reduced
+
+The start of the file's name denotes what simplicial complexes the dictionaries of that file contain. 
+-'ThreeFac' contains the simplicial complexes are those with three facets, 'FourFac' contains the 
+simplicial complexes with four facets, etc.
+-'Pure5D' contains the simplicial complexes that are pure of dimension 5, 'Pure4D' contains the
+simplicial complexes that are pure of dimension 4, etc.
+-For the pure simplicial complexes of dimension 2, since there are so many they are further broken down
+by facet. Therefore 'Pure2D_3Fac' contains the simplicial complexes that are pure of dimension 2 
+and have three facets, etc.
