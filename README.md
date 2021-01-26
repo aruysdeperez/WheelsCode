@@ -45,5 +45,9 @@ for which the simplicial complex had precisely 6 neurons and m facets. The funct
 was for when the simplicial complexes generated were pure of a particular dimension d. The last function, whose name had "PURE_2D" appended,
 was for the special case when we had to generate those simplicial complexes that were pure when the dimension was 2.
 
--There are still some parts of the script that need to be generalize. In particular, the paths used to store the files have been hard-coded in.
+-There are still some parts of the script that need to be generalized. In particular, the paths used to store the files have been hard-coded in.
+
+Results:
+Those wishing to see the results of these scripts on some of the codes on 6 neurons should check the RESULTS folder. In the RESULTS folder is a
+readme titled Results_Description.txt that explains how the data are organized.
 
